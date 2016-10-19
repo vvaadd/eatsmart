@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link href="../../static/css/_main.css" th:href="@{/css/_main.css}" rel="stylesheet" media="screen"/>
+    <link href="../../static/css/index.css" th:href="@{/css/index.css}" rel="stylesheet" media="screen"/>
+</head>
+<body>
+<div th:fragment="feedback">
+    <div class="foter-H">ЗАДАЙТЕ ВОПРОС И/ИЛИ ОСТАВЬТЕ СВОЙ ОТЗЫВ:</div>
+    <div class="foter-H2">В случае если у Вас появились:</div>
+    <ul class="foter_ul">
+        <li>Вопросы</li>
+        <li>Претензии к качеству нашей продукции</li>
+        <li>Претензии/ предложения по работе службы доставки</li>
+        <li>Необходимость корректировки сделанного заказа</li>
+        <li>Предложения по сотрудничеству</li>
+        <li>Прочие вопросы/ пожелания</li>
+    </ul>
+    <div class="foter-H3">Пожалуйте, напишите нам в форме обратной связи. Мы обработаем Ваш заказ<br/>и
+        оперативно с
+        Вами свяжемся. Заранее благодарим Вас за содействие.
+    </div>
+    <!-- 7.2 form -->
+    <div id="send-form">
+        <form action="" method="post" name="f-order" id="f-order">
+            <table width="100%" border="0" cellspacing="0" cellpadding="8">
+                <tr>
+                    <td>
+                        <div class="form-title">Ваше Имя и Фамилия *</div>
+                        <input type="text" name="e-name" id="e-name" maxlength="255"/>
+                    </td>
+                    <td>
+                        <div class="form-title">Ваш e-mail</div>
+                        <input type="text" name="e-mail" id="e-mail" maxlength="255"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="form-title">Ваш телефон *</div>
+                        <input type="text" name="e-phone" id="e-phone" maxlength="255"/>
+                    </td>
+                    <td>
+                        <div class="form-title">Id заказа</div>
+                        <input type="text" name="e-order" id="e-order" maxlength="255"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="form-title">Ваш вопрос/ комментарий</div>
+                        <textarea cols="50" rows="6" name="e-comm"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center" style="padding-top: 20px;">
+                        <input type="submit" name="b-subbmit" id="b-submit" value="ОТПРАВИТЬ"
+                               title="Отправить сообщение"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+</body>
+</html>

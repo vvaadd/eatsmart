@@ -1,0 +1,162 @@
+﻿	
+	body /* for index.php only */
+	{
+		color: #404040;
+		background:
+					url(../images/back_1.png) 50% 0 repeat-x,
+					url(../images/back_2.png) 50% 59px repeat-x,
+					url(../images/01_back.jpg) 50% 0 no-repeat,
+					url(../images/03_back.jpg) 50% 1868px no-repeat,
+					url(../images/05_back.gif) 50% 3482px no-repeat,
+					/*url(images/back_4.png) 0% 5182px repeat-x,*/
+					url(../images/06_back.jpg) 50% 100% no-repeat;
+		background-color: #f8f8f8;
+		border: none;
+		margin: 0;
+		padding: 0;
+		font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+		font-size: 16px;
+	}
+	
+/* ============================================================================= */
+	
+	/* index top-line*/
+	.top-line {position: relative; left: 0; top: 0; height: 59px; color: #ffffff;}
+	
+	a.top-sb1 {display: block; width: 25px; height: 24px; position: absolute; left: 1044px; top: 16px; background: url(../images/01_top_pict_inst.png);}
+	a.top-sb2 {display: block; width: 25px; height: 24px; position: absolute; left: 1090px; top: 16px; background: url(../images/01_top_pict_fb.png);}
+	a.top-sb3 {display: block; width: 25px; height: 24px; position: absolute; left: 1140px; top: 16px; background: url(../images/01_top_pict_vk.png);}
+
+/* =====================================================================
+	1. slider 
+======================================================================== */
+
+	.slide-img {height: 753px; width: 1280px; min-width: 1200px; margin: 0 auto; position: relative; z-index: -1; color: #ffffff;}
+		
+	.slide-prev {display: block; width: 38px; height: 71px; position: absolute; left: 0; top: 515px; background: url(../images/01_b_prev.png);}
+	.slide-next {display: block; width: 38px; height: 71px; position: absolute; right: 0; top: 515px; background: url(../images/01_b_next.png);}
+	
+	.slide-text-all {width: 980px; margin: 0 auto; padding-top: 255px;} 
+	.slide1-H {color: #ffffff; font-size: 48px; font-weight: 400; text-align: center; letter-spacing: 2px; padding-bottom: 60px; background: url(../images/01_line.png) no-repeat 50% 100%;}
+	.slide1-txt  {width: 700px; margin: 0 auto; color: #ffffff; font-size: 20px; font-weight: 400; text-align: justify; padding-top: 30px;}
+	.slide1-txt2 {width: 700px; margin: 7px auto; color: #ffffff; font-size: 20px; font-weight: 400; text-align: center; font-weight: 700;}
+
+/* ==========================================================================
+	 2. icons 
+============================================================================= */
+
+	#icons-div {height: 968px; position: relative;}
+	
+	h1 {margin: 0px; padding: 70px 0 28px 0;}
+	
+	#icons-tbl2 {display: block; padding: 30px 0 60px 0;}
+	
+	.icons-txt {padding: 30px 0 50px 0;}
+	
+	.baner-over {min-width: 1280px; position: relative;}
+	
+	.baner-a {display: none; width: 256px; height: 245px; overflow: hidden; position: absolute; right: 0;/*top: 1570px;*/bottom: 45px; background: url(../images/right_back.png); color: #717171; font-size: 18px; font-weight: 700;}
+	.baner-a span.b-txt {display: block; padding: 35px 10px 12px 92px;}
+	.baner-a span.btn {display: block; background: #92c841; margin: 14px 28px 0 92px;  padding: 10px 19px; color: #104349;} 
+	#cur_date {color: #009472;}
+	
+/* =========================================================================
+	 3. infographic
+============================================================================ */
+
+	#back_03 { height: 801px; margin: 0 auto; position: relative; color: #ffffff;}
+	
+	.info-H {text-align: center; font-size: 30px; font-weight: 700; color: #104349; padding: 70px 0 30px 0; background: url(../images/03_line.png) no-repeat 50% 100%;}
+	
+	div.infographic {margin: 90px 0 50px 0;}
+	
+	div.infographic div.info-d {float: left; width: 300px; height: 575px; position: relative;}
+	
+	div.infographic div div.info-sH {color: #104349; font-size: 18px; font-weight: 700; margin: -4px 0 0 70px;}
+
+	div.info-txt {position: absolute; left: 0; top: 300px; padding: 20px; color: #0e4248; font-size: 18px; line-height: 150%; }
+	
+	div#info-d1 {background: url(../images/03_pict1.png) no-repeat; }
+	div#info-d2 {background: url(../images/03_pict2.png) no-repeat; }
+	div#info-d3 {background: url(../images/03_pict3.png) no-repeat; }
+	div#info-d4 {background: url(../images/03_pict4.png) no-repeat; }
+	
+
+/* ========================================================================
+	 4. men-women
+=========================================================================== */
+
+	#men-women {height: 812px;}
+	#men-women div, #men-women a {position: absolute;}
+	
+	.men-sing {width: 80px; height: 80px; left: 20px; top: 70px; background: url(../images/04_man.png); }
+	.women-sing {width: 80px; height: 80px; left: 610px; top: 70px; background: url(../images/04_woman.png); }
+	
+	.men-title { left: 20px; top: 170px; color: #92c841; font-size: 24px; font-weight: 700; padding: 0 0 30px 0; background: url(../images/02_line.png) no-repeat 0 100%;}
+	.women-title { left: 620px; top: 170px; color: #faab1d; font-size: 24px; font-weight: 700; padding: 0 0 30px 0; background: url(../images/04_line.png) no-repeat 0 100%;}
+
+	a.md {display: block; width: 268px; height: 220px; position: relative; border: 3px dashed #92c841; border-radius: 10px; color: #104349;}
+	a.wd {display: block; width: 268px; height: 220px; position: relative; border: 3px dashed #92c841; border-radius: 10px; color: #104349;}
+	a.md:hover {background: #92c841 /*url(images/04_detail.png) no-repeat 90% 38%*/;}
+	a.wd:hover {background: #faab1d /*url(images/04_detail.png) no-repeat 90% 38%*/;}
+	
+	span.detail {display: none; width: 126px; height: 124px; position: absolute; left: 164px; top: -30px; background: url(../images/04_detail.png) no-repeat;}
+	
+	span.mw-H {display: block;  height: 50px; font-size: 20px; margin: 14px 0 40px 30px; font-weight: 700;}
+	span.mw-kk {display: block; height: 34px; padding: 2px 0 0 90px; background: url(../images/04_pict1.png) no-repeat 30px 0; font-size: 20px;}
+	span.mw-rub {display: block; height: 34px; padding: 22px 0 0 90px; background: url(../images/04_pict2.png) no-repeat 30px 20px; font-size: 20px;}
+	
+	a#md-1 {left: 20px; top: 260px;}
+	a#md-2 {left: 320px; top: 260px;}
+	a#md-3 {left: 20px; top: 520px;}
+	a#md-4 {left: 320px; top: 520px;}
+	
+	a#wd-1 {left: 620px; top: 260px;}
+	a#wd-2 {left: 920px; top: 260px;}
+	a#wd-3 {left: 620px; top: 520px;}
+
+/* ======================================================================
+	5. eat menu
+========================================================================= */
+	
+	#menu-carr {height: 222px; margin: 0 auto; position: relative; color: #ffffff;}
+	
+	.menu-H {text-align: center; font-size: 30px; font-weight: 700; color: #104349; padding: 40px 0 20px 0; background: url(../images/03_line.png) no-repeat 50% 100%;}
+	
+	.menu-back {background: #fffec4; min-width: 1280px; margin: 0 auto;}
+	.menu-back a {font-style: italic; font-size: 16px; font-weight: 400; color: #538a00;}
+	.menu-back a:hover {text-decoration: underline;}
+	
+	a.m-week {display: block; position: absolute; z-index: 2; bottom: 0; color: #104349; padding: 24px 28px 22px 90px; font-size: 20px; font-weight: 700;}
+	.m-week1, .m-week1-activ {left: 370px; }
+	.m-week2, .m-week2-activ {left: 630px; }
+
+	.m-week1 {background: url(../images/05_1.png) no-repeat 20px 10px;}
+	.m-week1-activ {background: url(../images/05_1_.png) no-repeat 20px 10px #fffec4; cursor: default;}
+
+	.m-week2 {background: url(../images/05_2.png) no-repeat 20px 10px;}
+	.m-week2-activ {background: url(../images/05_2_.png) no-repeat 20px 10px #fffec4; }
+	
+	.day-n {padding-top: 50px;}
+	.m-item, .m-day, .m-time {float: left; width: 190px; margin-left: 10px;}
+	.m-item {color: #104349; font-size: 20px; font-weight: 400; font-family: 'Times New Roman', Times, serif;}
+	.m-day  {color: #009472; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 400;}
+	.m-time {color: #5a5a5a; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 700;}
+	
+	.m-over {overflow: hidden; clear: left; padding-bottom: 50px;}
+	
+	.m-day-detail {position: relative; width: 1180px; height: 50px; margin: 0 auto; border-top: 1px solid #92c841;}
+	a.m-day-photo {display: block; position: absolute; z-index: 2; left: 380px; top: -12px; padding: 0 19px; background: #fffec4;}
+	a.m-day-txt   {display: block; position: absolute; z-index: 2; left: 600px; top: -12px; padding: 0 19px; background: #fffec4;}
+	
+	.m-close-line {height: 50px; min-width: 1280px; margin: 0 auto; background: #fae865;}
+	.m-close-line a {color: #2e584c; font-style: italic; font-size: 16px; font-weight: 400; display: block; position: absolute; z-index: 2; right: 0; top: 12px; padding: 2px 60px 0 0; background: url(../images/05_close.png) no-repeat 100% 50%;}
+
+/* =================================================================
+	6. order button
+==================================================================== */
+
+	#b-order-line {}
+	#b-order {display: block; width: 580px; text-align: center; font-size: 28px; font-weight: 700; color: #104349; padding: 24px 0; background: #92c841; margin: 60px auto;}
+
+	

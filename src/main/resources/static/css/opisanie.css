@@ -1,0 +1,61 @@
+﻿/* =====================================================================
+	common
+======================================================================== */
+	.men-women-sing { height: 120px; background: url(../images/04_man.png) no-repeat 23% 0, url(../images/04_woman.png) no-repeat 76% 0 ;}
+	
+	.diet {padding: 20px 50px 45px 65px; border-bottom: solid 1px #129b7b; position: relative; font-family: 'Times New Roman', Times, serif; color: #104349; font-size: 20px;}
+	.diet a {color: #009472; font-family: 'Times New Roman', Times, serif; font-size: 20px; text-decoration: underline;}
+	.diet a:hover {text-decoration: none;}
+	.deit-li {margin: 0; padding: 0;}
+	
+	.diet-baner {width: 440px; height: 100px; background: #92c841; margin-top: 40px;}
+	.diet-baner-txt {padding-top: 16px; text-align: center; font-size: 24px; font-weight: 700; color: #104349; font-family: Verdana, Geneva, Helvetica, sans-serif;  line-height: 30px;}
+
+/* =====================================================================
+	for-men 
+======================================================================== */
+	.for-men {width: 580px; float: left; margin-left: 10px; border-right: solid 1px #129b7b;}
+	.for-mem-title {color: #92c841; text-align: center; font-size: 24px; font-weight: 700; padding: 0 0 20px 0; margin-bottom: 70px; background: url(../images/02_line.png) no-repeat 50% 100%;}
+	
+	a.diet-open-m, a.diet-open-w {display: block; width: 40px; height: 21px; position: absolute;}
+	a.diet-open-m {top: 100px; right: 30px; background: url(../images/b_open_menu.png) no-repeat 0 0;}
+	
+	a.diet-close-m, a.diet-close-w {display: block; position: absolute; height: 24px; padding-right: 50px; text-align: right; font-family: Verdana, Helvetica, sans-serif; font-style: italic; font-size: 16px; font-weight: 400; color: #2e584c; right: 30px; top: 32px; text-decoration: none; display: none}
+	a.diet-close-m:hover, a.diet-close-w:hover { text-decoration: underline;}
+	
+	a.diet-close-m {background: url(../images/b_close_menu.png) no-repeat 100% 0;}
+	
+	.diet-title {padding: 10px 0 10px 0; font-size: 20px; font-weight: 700; color: #104349; font-family: Verdana, Geneva, Helvetica, sans-serif;}
+	.diet-kkal {padding: 20px 0 3px 50px; background: url(../images/04_pict1.png) no-repeat 0 16px; color: #0e4248; font-size: 24px;}
+	.diet-add {display: none;}
+	
+	.diet-text {margin: 20px 0; line-height: 120%;}
+	.dietolog {padding: 20px 0 20px 60px; background: url(../images/dietolog.png) no-repeat 0 10px; color: #0e4248; font-size: 24px;}
+	
+	.diet-m1 {background: url(../images/05_1_.png) no-repeat 0 20px;}
+	.diet-m2 {background: url(../images/05_2_.png) no-repeat 0 20px;}
+	.diet-m3 {background: url(../images/05_3_.png) no-repeat 0 20px;}
+	.diet-m4 {background: url(../images/05_4_.png) no-repeat 0 20px;}
+	
+/* =====================================================================
+	for-women 
+======================================================================== */
+	
+	.for-women-left {margin-left: 30px;}
+	.for-women {width: 590px; float: left; border-left: solid 1px #129b7b; position: relative; left: -1px;} 
+	.for-womem-title {color: #faab1d; text-align: center; font-size: 24px; font-weight: 700; padding: 0 0 20px 0; margin-bottom: 70px; background: url(../images/04_line.png) no-repeat 50% 100%}
+
+	a.diet-open-w {top: 80px; right: 40px; background: url(../images/b_open_menu_women.png) no-repeat 0 0;}
+	a.diet-close-w {background: url(../images/b_close_menu_women.png) no-repeat 100% 0;}
+	
+	.diet-w1 {background: url(../images/woman_1.png) no-repeat 30px 20px;}
+	.diet-w2 {background: url(../images/woman_2.png) no-repeat 30px 20px;}
+	.diet-w3 {background: url(../images/woman_3.png) no-repeat 30px 20px;}
+
+/* =================================================================
+	 bottom
+==================================================================== */
+
+	.bottom-line {height: 117px;}
+
+	

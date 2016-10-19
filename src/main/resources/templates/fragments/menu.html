@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+
+</head>
+<body>
+<div th:fragment="menu">
+    <div class="top-menu-carr">
+        <div class="content">
+            <!-- top-menu -->
+            <a href="index.html#menu" class="top-menu tm1">МЕНЮ</a>
+            <a href="../home/zakaz.html" th:href="@{/zakaz}" class="top-menu tm2">ОФОРМИТЬ<br/>ЗАКАЗ</a>
+            <a href="recommendation.html" class="top-menu tm3">СОВЕТЫ<br/>ДИЕТОЛОГА</a>
+            <a href="contacts.html" class="top-menu tm4">КОНТАКТЫ</a>
+            <a href="enter.html" class="top-menu a-enter">ВХОД/<br/>РЕГИСТРАЦИЯ</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

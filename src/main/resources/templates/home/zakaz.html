@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <!-- <link rel="SHORTCUT ICON" href="favicon.ico"> -->
+    <title>EatSmart - ОФОРМИТЬ ЗАКАЗ</title>
+    <link href="../../static/css/_main.css" th:href="@{/css/_main.css}" rel="stylesheet" type="text/css"/>
+    <!--<link href="../../static/css/zakaz.css" rel="stylesheet" type="text/css"/>-->
+</head>
+<body>
+<!-- header =================================== -->
+<!-- 1.1 top line -->
+<div th:replace="fragments/header :: header"></div>
+<!-- 1.2 top menu -->
+<div th:replace="fragments/menu :: menu"></div>
+<div class="content">
+    <!-- title -->
+    <h1>ОФОРМИТЬ ЗАКАЗ</h1>
+</div>
+<!-- content -->
+<div id="footer" class="content">
+    <div th:replace="fragments/feedback :: feedback">Feedback</div>
+    <div th:replace="fragments/footer :: footer">Footer</div>
+</div>
+<script language="JavaScript" type="text/javascript"></script>
+</body>
+</html>

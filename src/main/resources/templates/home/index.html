@@ -1,0 +1,496 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <!-- <link rel="SHORTCUT ICON" href="favicon.ico"> -->
+    <title>EatSmart</title>
+    <link href="../../static/css/_main.css" th:href="@{/css/_main.css}" rel="stylesheet" media="screen"/>
+    <link href="../../static/css/index.css" th:href="@{/css/index.css}" rel="stylesheet" media="screen"/>
+</head>
+<body>
+<!-- header =================================== -->
+<!-- 1.1 top line -->
+<div th:replace="fragments/header :: header"></div>
+<!-- 1.2 top menu -->
+<div th:replace="fragments/menu :: menu"></div>
+
+<!-- 1. slider
+===================================================================== -->
+<div class="slide-img" id="slide_1">
+
+    <!-- sl-buttom -->
+    <a name="sl-but-prev" id="sl-but-prev" href="javascript:void(0);" class="slide-prev" title="Предыдущий"></a>
+    <a name="sl-but-next" id="sl-but-next" href="javascript:void(0);" class="slide-next" title="Следующий"></a>
+
+    <div class="slide-text-all">
+        <!-- sl-text -->
+        <div class="slide1-H">Здоровое питание может и должно<br/>быть вкусным!</div>
+        <div class="slide1-txt">
+            <strong>Eat Smart</strong> - это сервис по доставке сбалансированного питания в контейнерах на весь день для
+            людей, которые ценят свое время и выбирают здоровый образ жизни. Каждое утро курьер доставляет Вам сумку с
+            питанием нужной калорийности на целый день. Всё точно подсчитано, выверено и вкусно приготовлено.
+            <div class="slide1-txt2">Нужно лишь вовремя поесть :)</div>
+        </div>
+    </div>
+
+</div>
+
+<!-- 2. icons 
+============================================================================= -->
+
+<div id="icons-div">
+    <div class="content">
+        <h1>НАШИ ПРЕИМУЩЕСТВА</h1>
+
+        <div class="icons-txt">
+            <table width="1096" border="0" cellspacing="0" cellpadding="0" align="center" id="icons-tbl">
+                <tr>
+                    <td width="352" height="125" align="center">
+                        <img src="../../static/images/02_pict1.gif" th:src="@{images/02_pict1.gif}" alt="" width="124"
+                             height="105" border="0" align="top"/></td>
+                    <td width="20">&nbsp;</td>
+                    <td width="352" align="center">
+                        <img src="../../static/images/02_pict2.gif" th:src="@{images/02_pict2.gif}" alt="" width="124"
+                             height="105"
+                             border="0" align="top"/></td>
+                    <td width="20">&nbsp;</td>
+                    <td width="352" align="center">
+                        <img src="../../static/images/02_pict3.gif" th:src="@{images/02_pict3.gif}" alt="" width="124"
+                             height="105"
+                             border="0" align="top"/></td>
+                </tr>
+                <tr>
+                    <td height="130" align="center" valign="top">Вкусное и здоровое питание на целый день стоит от 900
+                        рублей, что соответствует цене ужина на 1 человека в не дорогом кафе
+                    </td>
+                    <td width="20">&nbsp;</td>
+                    <td align="center" valign="top">Меню хорошо сбалансировано так как составлено профессиональными
+                        диетологами и поварами
+                    </td>
+                    <td width="20">&nbsp;</td>
+                    <td align="center" valign="top">Используются только свежие продукты высочайшего качества</td>
+                </tr>
+                <tr>
+                    <td width="352" height="125" align="center">
+                        <img src="../../static/images/02_pict4.gif" th:src="@{images/02_pict4.gif}" alt="" width="124"
+                             height="105" border="0" align="top"/></td>
+                    <td width="20">&nbsp;</td>
+                    <td width="352" align="center">
+                        <img src="../../static/images/02_pict5.gif" th:src="@{images/02_pict5.gif}" alt="" width="124"
+                             height="105"
+                             border="0" align="top"/></td>
+                    <td width="20">&nbsp;</td>
+                    <td width="352" align="center">
+                        <img src="../../static/images/02_pict6.gif" th:src="@{images/02_pict6.gif}" alt="" width="124"
+                             height="105"
+                             border="0" align="top"/></td>
+                </tr>
+                <tr>
+                    <td height="120" align="center" valign="top">Еда приготавливается утром в день доставки</td>
+                    <td width="20">&nbsp;</td>
+                    <td align="center" valign="top">Значительная экономия времени на готовку</td>
+                    <td width="20">&nbsp;</td>
+                    <td align="center" valign="top">Еда доставляется уже на следующий день после заказа</td>
+                </tr>
+                <tr>
+                    <td width="352" height="125" align="center">&nbsp;</td>
+                    <td width="20">&nbsp;</td>
+                    <td width="352" align="center">
+                        <img src="../../static/images/02_pict7.gif" th:src="@{images/02_pict7.gif}" alt="" width="124"
+                             height="105"
+                             border="0" align="top"/></td>
+                    <td width="20">&nbsp;</td>
+                    <td width="352" align="center">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td height="130" align="center" valign="top">&nbsp;</td>
+                    <td width="20">&nbsp;</td>
+                    <td align="center" valign="top">Мы не используем сахар, его искусственные заменители, сливочное
+                        масло и прочие продукты с высоким содержанием жира
+                    </td>
+                    <td width="20">&nbsp;</td>
+                    <td align="center" valign="top">&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- 2.1 right baner -->
+<div class="baner-over">
+    <a name="index-baner" id="index-baner" href="zakaz.html" class="baner-a">
+        <span class="b-txt">НАЧНИ<br/>ПРАВИЛЬНО<br/>ПИТАТЬСЯ<br/>С<span id="cur_date"></span></span><span class="btn">ЗАКАЖИ<br/>СЕЙЧАС</span></a>
+</div>
+
+<!-- 3. infographic
+============================================================================= -->
+
+<div id="back_03">
+    <div class="content">
+        <div class="info-H">КАК ЭТО РАБОТАЕТ</div>
+        <div class="infographic">
+            <div class="info-d" id="info-d1">
+                <div class="info-sH">ВЫБЕРИТЕ<br/>ПРОГРАММУ<br/>ПИТАНИЯ</div>
+                <div class="info-txt">Вы можете выбрать программу питания на весь день в зависимости от Ваших целей:
+                    диета/ идеальный баланс / высокие физические нагрузки
+                </div>
+            </div>
+            <div class="info-d" id="info-d2">
+                <div class="info-sH">ШЕФ-ПОВАР<br/>ГОТОВИТ</div>
+                <div class="info-txt">Каждое утро мы готовим сет блюд для 6-разового сбалансированного питания в течение
+                    всего дня. Блюда приготовлены профессиональными поварами на сертифици-<br/>рованной кухне
+                </div>
+            </div>
+            <div class="info-d" id="info-d3">
+                <div class="info-sH">МЫ<br/>ДОСТАВЛЯЕМ</div>
+                <div class="info-txt">Курьер привозит рацион питания к Вам домой или в офис. Так как продукты
+                    приготовлены с утра и доставляются на 1 день они всегда свежие
+                </div>
+            </div>
+            <div class="info-d" id="info-d4">
+                <div class="info-sH">ВЫ ПИТАЕТЕСЬ<br/>РАЗНООБРАЗНО<br/>И ПРАВИЛЬНО!</div>
+                <div class="info-txt">Независимо от Вашего образа жизни здоровое питание будет являться ключевым
+                    фактором улучшения самочувствия и физической формы
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 4. men-women
+======================================================== -->
+
+<div class="content" id="men-women">
+    <div class="men-sing"></div>
+    <div class="women-sing"></div>
+    <div class="men-title">МУЖЧИНАМ</div>
+    <a name="md-1" id="md-1" href="opisanie.html" class="md" onmouseover="dietShowDetail(1);"
+       onmouseout="dietHideDetail(1);"><span class="mw-H">ДИЕТА/ СУШКА</span><span class="mw-kk">1400 Ккал</span><span
+            class="mw-rub">1000р/ день</span><span class="detail" id="mwd-1"></span></a>
+    <a name="md-2" id="md-2" href="opisanie.html" class="md" onmouseover="dietShowDetail(2);"
+       onmouseout="dietHideDetail(2);"><span class="mw-H">ИДЕАЛЬНЫЙ<br/>БАЛАНС</span><span
+            class="mw-kk">1800 Ккал</span><span
+            class="mw-rub">1300р/ день</span><span class="detail" id="mwd-2"></span></a>
+    <a name="md-3" id="md-3" href="opisanie.html" class="md" onmouseover="dietShowDetail(3);"
+       onmouseout="dietHideDetail(3);"><span class="mw-H">ПОВЫШЕННОЕ<br/>СОДЕРЖАНИЕ<br/>БЕЛКА</span><span
+            class="mw-kk">2200 Ккал</span><span
+            class="mw-rub">1500р/ день</span><span class="detail" id="mwd-3"></span></a>
+    <a name="md-4" id="md-4" href="opisanie.html" class="md" onmouseover="dietShowDetail(4);"
+       onmouseout="dietHideDetail(4);"><span class="mw-H">НАБОР<br/>МЫШЕЧНОЙ<br/>МАССЫ</span><span
+            class="mw-kk">3100 Ккал</span><span class="mw-rub">1800р/ день</span><span class="detail" id="mwd-4"></span></a>
+
+    <div class="women-title">ЖЕНЩИНАМ</div>
+    <a name="wd-1" id="wd-1" href="opisanie.html" class="wd" onmouseover="dietShowDetail(5);"
+       onmouseout="dietHideDetail(5);"><span class="mw-H">ДИЕТА/ СУШКА</span><span class="mw-kk">1300 Ккал</span><span
+            class="mw-rub">800р/ день</span><span class="detail" id="mwd-5"></span></a>
+    <a name="wd-2" id="wd-2" href="opisanie.html" class="wd" onmouseover="dietShowDetail(6);"
+       onmouseout="dietHideDetail(6);"><span class="mw-H">ИДЕАЛЬНЫЙ<br/>БАЛАНС</span><span
+            class="mw-kk">1800 Ккал</span><span
+            class="mw-rub">1000р/ день</span><span class="detail" id="mwd-6"></span></a>
+    <a name="wd-3" id="wd-3" href="opisanie.html" class="wd" onmouseover="dietShowDetail(7);"
+       onmouseout="dietHideDetail(7);"><span class="mw-H">ПОВЫШЕННОЕ<br/>СОДЕРЖАНИЕ<br/>БЕЛКА</span><span
+            class="mw-kk">1800 Ккал</span><span
+            class="mw-rub">1300р/ день</span><span class="detail" id="mwd-7"></span></a>
+</div>
+<!-- 5. eat menu
+========================================================================================= -->
+<a name="menu" id="menu"></a>
+
+<div id="menu-carr">
+    <div class="content">
+        <div class="menu-H">МЕНЮ</div>
+        <a name="a-week1" id="a-week1" href="javascript:eat_menu_open1();" class="m-week m-week1-activ">НЕДЕЛЯ</a>
+        <a name="a-week2" id="a-week2" href="javascript:eat_menu_open2();" class="m-week m-week2">НЕДЕЛЯ</a>
+    </div>
+</div>
+<!-- menu week 1 -->
+<div class="menu-back" id="menu-back1">
+    <div class="content">
+        <div class="day-n" id="week-1-day-1">
+            <div class="m-over"><!-- eat time -->
+                <div class="m-time">&nbsp;</div>
+                <div class="m-time">Завтрак<br/>(7:00-8:30)</div>
+                <div class="m-time">Ланч<br/>(10:00-11:00)</div>
+                <div class="m-time">Обед<br/>(12:30-14:30)</div>
+                <div class="m-time">Полдник<br/>(16:00-17:00)</div>
+                <div class="m-time">Ужин<br/>(19:00-20:00)</div>
+            </div>
+            <div class="m-over">
+                <div class="m-day">ПОНЕДЕЛЬНИК</div>
+                <div class="m-item">Запеканка<br/>с апельсиновой<br/>цедрой</div>
+                <div class="m-item">Салат<br/>с курицей гиль</div>
+                <div class="m-item">Куриная грудка<br/>с булгуром</div>
+                <div class="m-item">Творог с корицей</div>
+                <div class="m-item">Лосось&nbsp;с овощами гриль</div>
+            </div>
+            <div class="m-day-detail">
+                <a href="javascripy:void(0);" class="m-day-photo">Посмотреть фото</a>
+                <a href="javascripy:void(0);" class="m-day-txt">Подробное описание</a>
+            </div>
+            <div class="m-over">
+                <div class="m-day">ВТОРНИК</div>
+                <div class="m-item">Запеканка<br/>с апельсиновой<br/>цедрой</div>
+                <div class="m-item">Салат<br/>с курицей гиль</div>
+                <div class="m-item">Куриная грудка<br/>с булгуром</div>
+                <div class="m-item">Творог с корицей</div>
+                <div class="m-item">Лосось&nbsp;с овощами гриль</div>
+            </div>
+            <div class="m-day-detail">
+                <a href="javascripy:void(0);" class="m-day-photo">Посмотреть фото</a>
+                <a href="javascripy:void(0);" class="m-day-txt">Подробное описание</a>
+            </div>
+            <div class="m-over">
+                <div class="m-day">СРЕДА</div>
+                <div class="m-item">Запеканка<br/>с апельсиновой<br/>цедрой</div>
+                <div class="m-item">Салат<br/>с курицей гиль</div>
+                <div class="m-item">Куриная грудка<br/>с булгуром</div>
+                <div class="m-item">Творог с корицей</div>
+                <div class="m-item">Лосось&nbsp;с овощами гриль</div>
+            </div>
+            <div class="m-day-detail">
+                <a href="javascripy:void(0);" class="m-day-photo">Посмотреть фото</a>
+                <a href="javascripy:void(0);" class="m-day-txt">Подробное описание</a>
+            </div>
+            <div class="m-over">
+                <div class="m-day">ЧЕТВЕРГ</div>
+                <div class="m-item">Запеканка<br/>с апельсиновой<br/>цедрой</div>
+                <div class="m-item">Салат<br/>с курицей гиль</div>
+                <div class="m-item">Куриная грудка<br/>с булгуром</div>
+                <div class="m-item">Творог с корицей</div>
+                <div class="m-item">Лосось&nbsp;с овощами гриль</div>
+            </div>
+            <div class="m-day-detail">
+                <a href="javascripy:void(0);" class="m-day-photo">Посмотреть фото</a>
+                <a href="javascripy:void(0);" class="m-day-txt">Подробное описание</a>
+            </div>
+            <div class="m-over">
+                <div class="m-day">ПЯТНИЦА</div>
+                <div class="m-item">Запеканка<br/>с апельсиновой<br/>цедрой</div>
+                <div class="m-item">Салат<br/>с курицей гиль</div>
+                <div class="m-item">Куриная грудка<br/>с булгуром</div>
+                <div class="m-item">Творог с корицей</div>
+                <div class="m-item">Лосось&nbsp;с овощами гриль</div>
+            </div>
+            <div class="m-day-detail">
+                <a href="javascripy:void(0);" class="m-day-photo">Посмотреть фото</a>
+                <a href="javascripy:void(0);" class="m-day-txt">Подробное описание</a>
+            </div>
+            <div class="m-over">
+                <div class="m-day">СУББОТА</div>
+                <div class="m-item">Запеканка<br/>с апельсиновой<br/>цедрой</div>
+                <div class="m-item">Салат<br/>с курицей гиль</div>
+                <div class="m-item">Куриная грудка<br/>с булгуром</div>
+                <div class="m-item">Творог с корицей</div>
+                <div class="m-item">Лосось&nbsp;с овощами гриль</div>
+            </div>
+            <div class="m-day-detail">
+                <a href="javascripy:void(0);" class="m-day-photo">Посмотреть фото</a>
+                <a href="javascripy:void(0);" class="m-day-txt">Подробное описание</a>
+            </div>
+            <div class="m-over">
+                <div class="m-day">ВОСКРЕСЕНЬЕ</div>
+                <div class="m-item">Запеканка<br/>с апельсиновой<br/>цедрой</div>
+                <div class="m-item">Салат<br/>с курицей гиль</div>
+                <div class="m-item">Куриная грудка<br/>с булгуром</div>
+                <div class="m-item">Творог с корицей</div>
+                <div class="m-item">Лосось&nbsp;с овощами гриль</div>
+            </div>
+            <div class="m-day-detail">
+                <a href="javascripy:void(0);" class="m-day-photo">Посмотреть фото</a>
+                <a href="javascripy:void(0);" class="m-day-txt">Подробное описание</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 5.2 menu close -->
+<div class="m-close-line" id="m-close1">
+    <div class="content">
+        <a href="javascript:eat_menu_close1();" title="Закрыть меню">Свернуть</a>
+    </div>
+</div>
+
+<!-- menu week 2 -->
+<div class="menu-back" id="menu-back2" style="display: none;">
+    <div class="content">
+        <div class="day-n" id="week-2-day-1">
+            <div class="m-over"><!-- eat time -->
+                <div class="m-time">2 week</div>
+                <div class="m-time">Завтрак<br/>(7:00-8:30)</div>
+                <div class="m-time">Ланч<br/>(10:00-11:00)</div>
+                <div class="m-time">Обед<br/>(12:30-14:30)</div>
+                <div class="m-time">Полдник<br/>(16:00-17:00)</div>
+                <div class="m-time">Ужин<br/>(19:00-20:00)</div>
+            </div>
+            <div class="m-over">
+                <div class="m-day">ПОНЕДЕЛЬНИК</div>
+                <div class="m-item">Запеканка<br/>с апельсиновой<br/>цедрой</div>
+                <div class="m-item">Салат<br/>с курицей гиль</div>
+                <div class="m-item">Куриная грудка<br/>с булгуром</div>
+                <div class="m-item">Творог с корицей</div>
+                <div class="m-item">Лосось&nbsp;с овощами гриль</div>
+            </div>
+            <div class="m-day-detail">
+                <a href="javascripy:void(0);" class="m-day-photo">Посмотреть фото</a>
+                <a href="javascripy:void(0);" class="m-day-txt">Подробное описание</a>
+            </div>
+            <div class="m-over">
+                <div class="m-day">ВТОРНИК</div>
+                <div class="m-item">Запеканка<br/>с апельсиновой<br/>цедрой</div>
+                <div class="m-item">Салат<br/>с курицей гиль</div>
+                <div class="m-item">Куриная грудка<br/>с булгуром</div>
+                <div class="m-item">Творог с корицей</div>
+                <div class="m-item">Лосось&nbsp;с овощами гриль</div>
+            </div>
+            <div class="m-day-detail">
+                <a href="javascripy:void(0);" class="m-day-photo">Посмотреть фото</a>
+                <a href="javascripy:void(0);" class="m-day-txt">Подробное описание</a>
+            </div>
+            <div class="m-over">
+                <div class="m-day">СРЕДА</div>
+                <div class="m-item">Запеканка<br/>с апельсиновой<br/>цедрой</div>
+                <div class="m-item">Салат<br/>с курицей гиль</div>
+                <div class="m-item">Куриная грудка<br/>с булгуром</div>
+                <div class="m-item">Творог с корицей</div>
+                <div class="m-item">Лосось&nbsp;с овощами гриль</div>
+            </div>
+            <div class="m-day-detail">
+                <a href="javascripy:void(0);" class="m-day-photo">Посмотреть фото</a>
+                <a href="javascripy:void(0);" class="m-day-txt">Подробное описание</a>
+            </div>
+            <div class="m-over">
+                <div class="m-day">ЧЕТВЕРГ</div>
+                <div class="m-item">Запеканка<br/>с апельсиновой<br/>цедрой</div>
+                <div class="m-item">Салат<br/>с курицей гиль</div>
+                <div class="m-item">Куриная грудка<br/>с булгуром</div>
+                <div class="m-item">Творог с корицей</div>
+                <div class="m-item">Лосось&nbsp;с овощами гриль</div>
+            </div>
+            <div class="m-day-detail">
+                <a href="javascripy:void(0);" class="m-day-photo">Посмотреть фото</a>
+                <a href="javascripy:void(0);" class="m-day-txt">Подробное описание</a>
+            </div>
+            <div class="m-over">
+                <div class="m-day">ПЯТНИЦА</div>
+                <div class="m-item">Запеканка<br/>с апельсиновой<br/>цедрой</div>
+                <div class="m-item">Салат<br/>с курицей гиль</div>
+                <div class="m-item">Куриная грудка<br/>с булгуром</div>
+                <div class="m-item">Творог с корицей</div>
+                <div class="m-item">Лосось&nbsp;с овощами гриль</div>
+            </div>
+            <div class="m-day-detail">
+                <a href="javascripy:void(0);" class="m-day-photo">Посмотреть фото</a>
+                <a href="javascripy:void(0);" class="m-day-txt">Подробное описание</a>
+            </div>
+            <div class="m-over">
+                <div class="m-day">СУББОТА</div>
+                <div class="m-item">Запеканка<br/>с апельсиновой<br/>цедрой</div>
+                <div class="m-item">Салат<br/>с курицей гиль</div>
+                <div class="m-item">Куриная грудка<br/>с булгуром</div>
+                <div class="m-item">Творог с корицей</div>
+                <div class="m-item">Лосось&nbsp;с овощами гриль</div>
+            </div>
+            <div class="m-day-detail">
+                <a href="javascripy:void(0);" class="m-day-photo">Посмотреть фото</a>
+                <a href="javascripy:void(0);" class="m-day-txt">Подробное описание</a>
+            </div>
+            <div class="m-over">
+                <div class="m-day">ВОСКРЕСЕНЬЕ</div>
+                <div class="m-item">Запеканка<br/>с апельсиновой<br/>цедрой</div>
+                <div class="m-item">Салат<br/>с курицей гиль</div>
+                <div class="m-item">Куриная грудка<br/>с булгуром</div>
+                <div class="m-item">Творог с корицей</div>
+                <div class="m-item">Лосось&nbsp;с овощами гриль</div>
+            </div>
+            <div class="m-day-detail">
+                <a href="javascripy:void(0);" class="m-day-photo">Посмотреть фото</a>
+                <a href="javascripy:void(0);" class="m-day-txt">Подробное описание</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 5.2 menu close -->
+<div class="m-close-line" id="m-close2" style="display: none;">
+    <div class="content">
+        <a href="javascript:eat_menu_close2();" title="Закрыть меню">Свернуть</a>
+    </div>
+</div>
+
+<!-- 6. order button
+================================================================== -->
+<div id="b-order-line">
+    <div class="content">
+        <a name="b-order" id="b-order" href="zakaz.html">ОФОРМИТЬ ЗАКАЗ</a>
+    </div>
+</div>
+
+<!-- ///////////////////////////////////////////////////////////////// -->
+
+<script language="JavaScript" type="text/javascript">
+
+    function dietShowDetail(n) {
+        document.getElementById("mwd-" + n).style.display = "block";
+    }
+
+    function dietHideDetail(n) {
+        document.getElementById("mwd-" + n).style.display = "none";
+    }
+
+    ////////////////////////////////////////
+
+    function eat_menu_open1() {
+        eat_menu_close2();
+        document.getElementById("menu-back1").style.display = "block";
+        document.getElementById("m-close1").style.display = "block";
+        document.getElementById("a-week1").className = "m-week m-week1-activ";
+        document.getElementById("menu-carr").scrollIntoView();
+    }
+    function eat_menu_open2() {
+        eat_menu_close1()
+        document.getElementById("menu-back2").style.display = "block";
+        document.getElementById("m-close2").style.display = "block";
+        document.getElementById("a-week2").className = "m-week m-week2-activ";
+        document.getElementById("menu-carr").scrollIntoView();
+    }
+    /////////////////////////////////////////////////////////////////
+
+    function eat_menu_close1() {
+        document.getElementById("menu-back1").style.display = "none";
+        document.getElementById("m-close1").style.display = "none";
+        document.getElementById("a-week1").className = "m-week m-week1";
+        document.getElementById("menu-carr").scrollIntoView();
+    }
+    function eat_menu_close2() {
+        document.getElementById("menu-back2").style.display = "none";
+        document.getElementById("m-close2").style.display = "none";
+        document.getElementById("a-week2").className = "m-week m-week2";
+        document.getElementById("menu-carr").scrollIntoView();
+    }
+</script>
+
+<script type="text/javascript">
+
+    var d = new Date();
+    var cur_day = d.getDate();
+    var next_day = cur_day + 1;
+    d.setDate(next_day);
+    var month_num = d.getMonth()
+    var day = d.getDate();
+
+    var month = new Array("ЯНВАРЯ", "ФЕВРАЛЯ", "МАРТА", "АПРЕЛЯ", "МАЯ", "ИЮНЯ", "ИЮЛЯ", "АВГУСТА", "СЕНТЯБРЯ", "ОКТЯБРЯ", "НОЯБРЯ", "ДЕКАБРЯ");
+
+    date_time = day + " " + month[month_num];
+
+    document.getElementById("cur_date").innerHTML = date_time;
+    document.getElementById("index-baner").style.display = "block";
+</script>
+
+<div id="footer" class="content">
+    <div th:replace="fragments/feedback :: feedback">Feedback</div>
+    <div th:replace="fragments/footer :: footer">Footer</div>
+</div>
+
+</body>
+</html>
