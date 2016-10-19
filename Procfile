@@ -1,1 +1,1 @@
-web: java -Xmx384m -Xss512k -XX:+UseCompressedOops -jar target/*.jar --spring.profiles.active=prod --server.port=$PORT
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/eatsmart-0.0.1-SNAPSHOT.jar
