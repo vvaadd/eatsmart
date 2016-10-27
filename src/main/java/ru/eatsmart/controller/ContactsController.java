@@ -6,16 +6,16 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class ZakazController {
-    final Logger logger = LoggerFactory.getLogger(ZakazController.class);
+public class ContactsController {
+    final Logger logger = LoggerFactory.getLogger(ContactsController.class);
 
     /**
      * Sign in page.
      */
-    @RequestMapping("/zakaz")
-    public String zakaz() {
-        logger.info("Showing zakaz page");
+    @RequestMapping("/contacts")
+    public String contacts() {
+        logger.info("Showing contacts page");
 
-        return "home/zakaz";
+        return "home/contacts";
     }
 }
